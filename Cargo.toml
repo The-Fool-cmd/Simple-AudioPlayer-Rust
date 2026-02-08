@@ -1,0 +1,12 @@
+[package]
+name = "Simple-AudioPlayer-Rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.101"
+cpal = "0.17.1"
+ringbuf = "0.4.8"
+symphonia = { version = "0.5.5", features = ["mp3", "mp1", "wav", "aiff", "flac", "ogg", "vorbis", "isomp4", "aac", "alac"] }
+ratatui = "0.26"
+crossterm = "0.27"
